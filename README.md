@@ -10,5 +10,8 @@ The project aimed to teach the students how to assemble genomes and transcriptom
 
 # Repository structure
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-This repository contains a scripts directory which contains all the scripts used in this course.
-In the Scripts directory, the Scripts.md file provides detailed information on the execution of scripts.
+This repository contains a scripts directory and Maker directory.
+
+Scripts directory contains all the scripts used in this course. In the Scripts directory, the Scripts.md file provides detailed information on the execution of scripts.
+
+MAKER directory contains contains the control files that were used in homology-based genome annotation of protein-coding sequences with MAKER.
