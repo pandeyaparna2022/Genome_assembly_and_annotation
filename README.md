@@ -9,7 +9,7 @@ Recommendation:
 Prior to running the code it is suggested to have the following structured layout for the data and results. This is not mandatory, but it is advised. 
 Attention: Please note that the file names may vary. If they do, you may need to modify the script where the file name is used. Review the code and comments for a clearer understanding of the provided scripts.
 
-Create a folder named data.
+Create a folder for the project named assembly and annotation.
 
 All data including Raw fasta files, intermediate processed files and annotation files or precursors to annotation files are kept in ordered subfolders within data folder.
 
