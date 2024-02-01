@@ -9,11 +9,11 @@
 #SBATCH --error=/data/users/apandey/genome_and_transcriptome_assembly_and_annotation/analysis/logs/05_genome_assembly_polishing_%j.e
 
 # define input and output directories
-# User needs to input path to the main directory where all the genome assemblies (this drectory contains sub-directories with Flye and Canu assemblies ) i.e., source1
+# User needs to provide input path to the main directory where all the genome assemblies (this drectory contains sub-directories with Flye and Canu assemblies ) i.e., source1
 # User also needs to input the path to the directory with Illumina sequencing reads to be used for polishing i.e., source2
 # Finally User needs to input the path to the destination folder where output data should be deposited i.e., destination
 
-#example: sbatch 03_a_Assembly_flye.sh </path/to/source1/> </path/to/source2> </path/to/destination>
+#example:05_genome_assembly_polishing.sh </path/to/source1/> </path/to/source2> </path/to/destination>
 
 source1=$1
 source2=$2
