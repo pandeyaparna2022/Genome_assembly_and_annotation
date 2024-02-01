@@ -12,7 +12,7 @@
 #SBATCH --partition=pall
 
 # User needs to provide the destination for the output of MAKER
-# Example: 114_01_Maker.sh </path/to/destination>
+# Example: 14_01_Maker.sh </path/to/destination>
 destination=$1
 
 # Set the variable REF to the directory path where associated files and tools are.
