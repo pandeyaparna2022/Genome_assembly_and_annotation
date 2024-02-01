@@ -11,7 +11,7 @@
 
 
 # Define input and output directories
-# User needs to provide path to the project directory which also contains all the polished genome assemblies i.e., source
+# User needs to provide path to the entire assembly directory as we need to bind this to the container, allowing the container to access files and directories within the directory. i.e., source
 # User also needs to provide path to the destination folder where output data should be deposited i.e., destination
 # Example: 11_TE_Sorter.sh </path/to/source/> </path/to/destination>
 source=$1
