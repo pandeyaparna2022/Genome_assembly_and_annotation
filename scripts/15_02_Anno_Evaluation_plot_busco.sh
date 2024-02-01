@@ -14,6 +14,7 @@
 module add UHTS/Analysis/busco/4.1.4;
 
 # Define input and output directories
+# User also needs to provide path to the 06_b_generate_busco_plots.py script i.e.,SCRIPT
 
 SOURCE=$1
 DESTINATION=$2
