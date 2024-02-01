@@ -13,7 +13,7 @@
 # User needs to provide path to the input directory which contains MAKER analysis results i.e., SOURCE
 # User also needs to provide path to the destination folder where output data should be deposited i.e., DESTINATION
 # User also needs to provide path to the blast_visualization.R script i.e.,SCRIPT
-# Example: 14_03_Maker_gff_fasta.sh </path/to/source/> </path/to/destination>
+# Example: 15_01_Anno_Evaluation.sh </path/to/source/> </path/to/destination> </path/to/SCRIPT>
 SOURCE=$1
 DESTINATION=$2
 SCRIPT=$3
