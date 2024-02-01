@@ -12,7 +12,6 @@
 # define input and output directories
 # User needs to provide path to the directory containing all the unpolished genome assemblies (this drectory contains sub-directories with Flye and Canu assemblies ) i.e., source1
 # User also needs to provide path to the directory containing polished genome assemblies i.e., source2
-# Similarly User also needs to provide the directory containing transcriptome assemly i.e., source3
 # User needs to provide path to the destination folder where output data should be deposited i.e., destination
 
 # example: 09_nucmer.sh </path/to/source1/> </path/to/source2> </path/to/destination> 
