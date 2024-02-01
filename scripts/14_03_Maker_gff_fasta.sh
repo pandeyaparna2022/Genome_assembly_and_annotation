@@ -17,6 +17,9 @@ module load SequenceAnalysis/GenePrediction/maker/2.31.9;
 export TMPDIR=$SCRATCH
 
 # Define input and output directories
+# User needs to provide path to the input directory which contains MAKER analysis results i.e., SOURCE
+# User also needs to provide path to the destination folder where output data should be deposited i.e., DESTINATION
+# Example: 14_03_Maker_gff_fasta.sh </path/to/source/> </path/to/destination>
 SOURCE=$1
 DESTINATION=$2
 
