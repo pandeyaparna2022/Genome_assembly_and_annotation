@@ -17,7 +17,7 @@ module add UHTS/Analysis/SeqKit/0.13.2
 # User needs to provide path to the entire assembly directory as we need to bind this to the container, allowing the container to access files and directories within the directory.i.e., PROJECTDIR
 # User also needs to provide path to the destination folder where output data should be deposited i.e., DESTINATION
 # User also needs to provide path to the genespace.R script i.e.,SCRIPT
-
+# Example: 16_GENESPACE_Comparative_genomics.sh </path/to/destination> </path/to/script> </path/to/project_directory>
 
 DESTINATION=$1
 SCRIPTDIR=$2
