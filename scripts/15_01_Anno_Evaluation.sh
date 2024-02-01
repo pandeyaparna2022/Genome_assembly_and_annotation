@@ -31,7 +31,7 @@ mkdir -p ${DESTINATION}/13_Annotation_Evaluation/UniProt_evaluation
 cd ${DESTINATION}/13_Annotation_Evaluation/BUSCO_evaluation
 
 # Specify the assembly to use
-assembly=${SOURCE}/run_mpi.all.maker.proteins.renamed.fasta
+assembly=${SOURCE}/run_mpi.maker.output/run_mpi.all.maker.proteins.renamed.fasta
 
 #Make a copy of the augustus config directory to a location where you have write permission
 cp -r /software/SequenceAnalysis/GenePrediction/augustus/3.3.3.1/config augustus_config
