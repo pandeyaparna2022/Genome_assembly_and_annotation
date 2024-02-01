@@ -15,6 +15,8 @@
 module load SequenceAnalysis/GenePrediction/maker/2.31.9
 
 # Define output and input directories
+# User needs to provide path to the entire assembly directory as we need to bind this to the container, allowing the container to access files and directories within the directory.
+
 HOME=$1
 DESTINATION=$2
 # Set the variable REF to the directory path where associated files and tools are.
