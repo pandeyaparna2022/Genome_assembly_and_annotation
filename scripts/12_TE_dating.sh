@@ -12,7 +12,7 @@
 
 # Define input and output directories
 # User needs to provide path to the input directory which contains EDTA analysis results i.e., source
-# User needs to provide the path to the script directory where parseRM.pl file is
+# User needs to provide the path to the script directory where parseRM.pl file is i.e., script_dir
 # User also needs to provide path to the destination folder where output data should be deposited i.e., destination
 # Example: 12_TE_dating.sh </path/to/source/> </path/to/script/dir/> </path/to/destination>
 source=$1
