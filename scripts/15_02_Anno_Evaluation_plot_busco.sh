@@ -17,6 +17,7 @@ module add UHTS/Analysis/busco/4.1.4;
 # User needs to provide path to the input directory which contains all the results of all the BUSCO analysis for all accessions i.e., SOURCE
 # User also needs to provide path to the destination folder where output data should be deposited i.e., DESTINATION
 # User also needs to provide path to the 06_b_generate_busco_plots.py script i.e.,SCRIPT
+# Example: 15_02_Anno_Evaluation_plot_busco.sh </path/to/source/> </path/to/destination> </path/to/script>
 
 SOURCE=$1
 DESTINATION=$2
