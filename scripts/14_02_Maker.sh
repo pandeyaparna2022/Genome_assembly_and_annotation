@@ -17,6 +17,7 @@ module load SequenceAnalysis/GenePrediction/maker/2.31.9
 # Define output and input directories
 # User needs to provide path to the entire assembly directory as we need to bind this to the container, allowing the container to access files and directories within the directory.i.e., HOME
 # User also needs to provide path to the destination folder where output data should be deposited i.e., DESTINATION
+# Example: 14_02_Maker.sh </path/to/source/> </path/to/destination>
 
 HOME=$1
 DESTINATION=$2
