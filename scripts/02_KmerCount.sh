@@ -11,7 +11,7 @@
 
 
 #User needs to input path to the directory where the input data (sequencing reads) is (source) and the path to the directory where output data should go (destination) when running the script with sbatch
-#example: sbatch 01_QC.sh </path/to/source/> </path/to/destination>
+#example: sbatch 02_KmerCount.sh </path/to/source/> </path/to/destination>
 
 source=$1
 destination=$2
