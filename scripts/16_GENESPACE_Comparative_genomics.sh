@@ -13,7 +13,12 @@
 
 module add UHTS/Analysis/SeqKit/0.13.2
 
-# Define the path to store the output of the analysis
+# Define input and output directories
+# 
+# User also needs to provide path to the destination folder where output data should be deposited i.e., DESTINATION
+# User also needs to provide path to the genespace.R script i.e.,SCRIPT
+
+
 DESTINATION=$1
 SCRIPTDIR=$2
 PROJECTDIR=$3
