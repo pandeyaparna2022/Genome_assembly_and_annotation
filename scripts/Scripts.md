@@ -5,6 +5,7 @@ These codes are written for setting up a genome assembly and annotation pipeline
 # Additional Files
 -	file containing one sequence per locus corresponding to representative gene model sequence for A. thaliana. The representative gene model is defined as the model that codes for the longest CDS at each locus
 -	a fasta file for a reference Arabidopsis thaliana genome (for comparison)
+-	fasta file containing Uniprot protein sequences
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 All shell scripts include SBATCH options at the start to enable submission to the SLURM workload manager, which helps alleviate the computational load on the head node of the HPC cluster.
