@@ -10,7 +10,7 @@
 #SBATCH --output=/data/users/apandey/genome_and_transcriptome_assembly_and_annotation/analysis/logs/07_meryl_database_preparation_%j.o
 #SBATCH --error=/data/users/apandey/genome_and_transcriptome_assembly_and_annotation/analysis/logs/07_meryl_database_preparation_%j.e
 
-#User needs to input path to the directory where the input data is (source) and the path to the directory where output data should go (destination) when running the script with sbatch
+#User needs to provide path to the directory where the input data is (Illumina paired end short reads genomic DNA sequencing reads) and the path to the directory where output data should go (destination) when running the script with sbatch
 #example: sbatch 07_a_Mercury_db.sh </path/to/source/> </path/to/destination>
 
 # define input data and output directories
