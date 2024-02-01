@@ -10,7 +10,8 @@
 #SBATCH --error=/data/users/apandey/genome_and_transcriptome_assembly_and_annotation/analysis/logs/03_b_canu_assembly_%j.e
 
 
-# define input data and output directories
+#User needs to provide input path to the directory where the input data (pacbio long reads sequencing reads) is (source) and the path to the directory where output data should go (destination) when running the script with sbatch
+#example: sbatch 03_b_Assembly_canu.sh </path/to/source/> </path/to/destination>
 source=$1
 destination=$2
 
