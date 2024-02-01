@@ -12,6 +12,9 @@
 
 
 # Define Input directory and script directory
+# User needs to provide path to the directory containing 17_parse_orthofinder.R script., SCRIPT_DIR
+# User also needs to provide path to the destination folder where output data should be deposited i.e., OUTPUT_DIR
+# Example: 17_parse_orthofinder.sh </path/to/destination> </path/to/Script/>
 OUTPUT_DIR=$1
 SCRIPT_DIR=$2
 
@@ -19,7 +22,7 @@ SCRIPT_DIR=$2
 module load R/3.6.1;
 
 #Define directories for input data
-WORKING_DIR=${OUTPUT_DIR}/orthofinder/*/
+WORKING_DIR=${OUTPUT_DIR}/14_comparative_genomics/orthofinder/*/
 cd ${WORKING_DIR}
 
 WORKING_DIR1=$(pwd)/Comparative_Genomics_Statistics
