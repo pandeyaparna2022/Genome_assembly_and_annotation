@@ -11,7 +11,8 @@
 #SBATCH --error=/data/users/apandey/genome_and_transcriptome_assembly_and_annotation/analysis/logs/14_01_MAKER_%j.e
 #SBATCH --partition=pall
 
-# User needs to provide the destination for the output of Maker
+# User needs to provide the destination for the output of MAKER
+# Example: 114_01_Maker.sh </path/to/destination>
 destination=$1
 
 # Set the variable REF to the directory path where associated files and tools are.
