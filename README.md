@@ -10,7 +10,7 @@ The project aimed to teach the students how to assemble genomes and transcriptom
 
 # Repository structure
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-This repository contains a scripts directory and Maker directory.
+This repository contains a scripts directory and MAKER directory.
 
 Scripts directory contains all the scripts used in this course. In the Scripts directory, the Scripts.md file provides detailed information on the execution of scripts.
 
