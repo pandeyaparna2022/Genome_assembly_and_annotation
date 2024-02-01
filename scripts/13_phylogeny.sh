@@ -9,6 +9,11 @@
 #SBATCH --output=/data/users/apandey/genome_and_transcriptome_assembly_and_annotation/analysis/logs/13_phylogeny_%j.o
 #SBATCH --error=/data/users/apandey/genome_and_transcriptome_assembly_and_annotation/analysis/logs/13_phylogeny_%j.e
 
+# Define input and output directories
+# User needs to provide path to the input directory which contains TEsorter analysis results i.e., source1
+# User also needs to provide path to the destination folder where output data should be deposited i.e., destination
+# Example: 13_phylogeny.sh </path/to/source/> </path/to/script/dir/> </path/to/destination>
+
 source1=$1
 source2=$2
 destination=$3
